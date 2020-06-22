@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+    <title>საშინაო დავალება</title>
+    <link rel="stylesheet" href="style.css/style.css" />
+</head>
+<body>
+    <div class="box-one" >
+        <h1>Brian Kardel</h1>
+        <img class="autor" src="profile.jpg.jpg" alt="autor">
+<div class="tagline"><a href="/">Betterifying the Web</a></div>
+    <div class="blurb">
+        <ul>
+            <li>Developer Advocate at Igalia</li>
+            <li>Original Co-author/Co-signer of The Extensible Web Manifesto</li>
+            <li>Co-Founder/Chair, W3C Extensible Web CG</li>
+            <li>Member, W3C (The JS Foundation)</li>
+            <li>Co-author of HitchJS</li>
+            <li>Blogger</li>
+            <li>Art, Science &amp; History Lover</li>
+            <li>Standards Geek</li>
+        </ul>
+    </div>
+    <div class="title">Follow Me On...</div>
+    <nav>
+        <ul>
+            <li><a rel="me" href="https://briankardell.wordpress.com">Wordpress</a></li>
+            <li><a rel="me" href="https://medium.com/@briankardell">Medium</a></li>
+            <li><a rel="me" href="https://twitter.com/briankardell">Twitter</a></li>
+            <li><a rel="me" href="https://github.com/bkardell/">Github</a></li>
+            <li><a rel="me" href="https://codepen.io/bkardell">Codepen</a></li>
+            <li><a rel="me" href="https://www.linkedin.com/in/brian-kardell-08a4264">LinkedIn</a></li>
+            <li><a rel="me" href="https://www.instagram.com/kardellbrian">Instagram (for
+art)</a></li>
+            <li><a rel="me" href="http://fineartamerica.com/profiles/brian-kardell?">Fine Art
+America (art for sale)</a></li>
+        </ul>
+    </div>
+</div>
+    <div align="right"><i>posted on 21/06/2020</i></div>
+            <div class="main" >
+            <h1 class="center">Web Engine Diversity and Ecosystem Health</h1>
+            <p><I>For many years, we've seen lots of blog posts and conversation on the topic of "browser engine diversity". I'd like to offer a slightly tilted view of this based instead on "the health of the ecosystem", and explain why I think this is more valuable measure and way to discuss these topics.</I>></p>
+            <p>Back in January, Jeremy Keith <a href=" https://adactio.com/journal/16331"> compared the complexity of browser engine diversity to political systems...</a></p>
+            <p class="list_item">"If you have hundreds of different political parties, that’s not ideal. But if you only have one political party, that’s very bad indeed!"</p>
+            <p>I like this analogy because I think he's right in even more ways than he intended. It's almost self-evident: 1 is too few, a hundred is too many - it's just chaos and noise. But what is the ideal number? This answer dogs us a lot, in part because it is not only unanswerable, it's actually kind of a red herring. I think there's something to this that leads to an important takeaway about how we think about the problem...</p>
+            <h2 class="center">Numbers and goals...</h2>
+            <p>The interesting part about this analogy is that the simple number of political parties isn't actually a very meaningful measure: Parties can differ a lot, or they can differ a little. 6 parties that barely disagree is quite a different thing than 3 that disagree substantially. Further, it's not simply a matter of giving voice to every dissenting opinion that matters either: There are political parties formed on ideas of hate, for example. Adding those doesn't add good things. In short, what really matters is the goal of those numbers.
+                <p>In the case of the political analogy, the real aim is about what makes for a healthy, effective and just model of governance. Similarly on the topic of "browser engine diversity", I believe that the real goal is "What makes for a healthy and effective ecosystem?" and that the numbers we frequently talk about (and how) can easily lead us into perhaps the wrong takeaways.</p>
+            <h2 class="center">Older engines and diversity</h2>
+            <p>It is fairly common that discussions of browser diversity point to the Web's own history for examples of "why engine diversity matters": IE vs Netscape are often held up. IE's dominance and ability to dictate the market (or even kill it in this case) was overcome by diversity. This is true, but very incomplete: There's a lot more beneath the surface...</p>
+                <p>Consider, for example, the fact that for a time there were only two mainstream browsers - and the very dominant one (IE) was both entirely proprietary and based on a single proprietary OS</p>
+                    <p>Consider how different this could have been, if IE had been open source and properly licensed. Even if Microsoft didn't want it to run on other operating systems, someone else could step in and fill that gap. If Microsoft walked away from the Web, or worse, went belly up, someone could fork and take over the project. If, for any reason at all, the primary maintainer cannot prioritize - other people and organization could more directly invest in advancements.</p>
+                        <p>A while later, Opera's Presto was very interesting, even multi-OS - but ultimately similarly proprietary.</p>
+                            <p>So, while we had greater 'diversity', these numbers alone aren't a great measure of the overall health of the ecosystem.</p>
+            <h2 class="center">The most healthy, open ecosystem ever.</h2>
+            <p>This is in stark contrast to the situation today: In important ways, we are a more diverse, efficient and healthier ecosystem with the three multi-os, open source engines we have left (Blink, Gecko and WebKit) than when we had had more and were dominated by projects that weren't that at all</p>
+                    <div class="note"></div>
+                    <p><strong>Note:</strong> 
+                     A lot of people seem to want to suggest that there aren't really 3 today because blink was born from a fork of WebKit, or because they think that WebKit is somehow "Just for iOS".</p>
+                    <p> There are certainly 3 entirely different JavaScript engines, and 3 entirely different architectures. There are some bits that remain similar, but the truth is that that this is neither new nor easily solvable. Web engines today are so astonishingly complex (measured in tens of millions of lines of code) that we only get new ones through evolution. For the most part, this has been true for a long time. Even Netscape was a "take 2" from many of the same minds from Mosaic. Mozilla was created from a rework of Netscape. Even IE was born by licensing the Mosaic code. WebKit was born by forking KHTML. In other words: The critical investment required to create a full-blown compliant browser from nothing would be mind-boggling if everything were stopped today - and it never stops.</p>
+                        <p>Today, the 3 that remain are all multi-OS.</p>
+                        <p class="list_item">"...Wait, even WebKit?" - you, just now.</p>
+                        <p>Yes! I'm glad you asked! The GNOME flagship Epiphany/Web browser for Linux is WebKit based -- and billions of devices are based on Embedded WebKit. PS4 is a fun example of something lots of people might be familliar with -- not only the Web browser on your PS4, but in fact lots of the UI itself is made with Web content running in a WebKit based browser. But chances are pretty good that you encounter emdedded WebKit all the time: On cable boxes, smart TVs and appliances, kiosks, car and airplane infotainment systems, digital signage and so on.</p>
+                        <p>This is possible because WebKit (and all of the engines today) are open source. Because of this, they all receive investments more widely than the org that maintains them, and that's expanding in important ways that are very good for the health of the ecosystem.</p>
+                        <p>galia, where I work, for example are able to work on all of the browsers and help expand investment in advancing the commons. The list of things we have helped advance, and who has helped fund that is growing all the time: From recent things in JavaScript like class fields and Big Integer, to CSS features like CSS Grid, or features in HTML like lazy loading - the benefits of this are clear.</p>
+                        <p>This also leads to lots of interesting new opportunities. For example, we are the creators/maintainers of WPE, the official WebKit Port for Embedded that powers tons of those devices mentioned above. This matters a lot because a rising tide lifts all boats in the commons. You can see an example of this in that Igalia is advancing work on SVG2 and hardware acceleration for SVG in WebKit - a topic which has failed to get the prioritization for years, but is especially critical for lots of embedded use cases. If you're interested in this, as well as <a href="https://www.igalia.com/chats/Igalia-Chats-Niko-SVG-WPE">some interesting history of SVG, WebKit, HTML/CSS and embedded browsers, have a listen to this.</a></p>
+                        <p>Opportunities to do better...</p>
+                        <p>here is another interesting thing here that is always left out of these discussions but I think is considerably interesting in this reframing. A funny little quirk of history is that while we say there are 3 rendering engines, that's only partially true.</p>
+                        <p>More specifically, there are 3 <i>modern browser rendering engines, and a bunch of other rendering engines that aren't that.</i>i></p>
+                        <h2 class="center">More open prioritization</h2>
+                        <p>But it's not just the projects being open source that matters, it's also that this affords us new opportunities for standardization itself.</p>
+                        <p>Ultimately, it is the calculus of prioritization which impacts our ability to get things done almost more than anything else. Historically, lots of companies get together and, effectively, ask that a very few companies do the work. They are big organizations with big investments, to be sure - but they are all constrained by hard limits. The gauntlet of issues surrounding our ability to prioritize everything from attention to actual implementation have stymied many a topic.</p>
+                    </div>
+    </div>
+    
+            
+            </body>
+</html>
+

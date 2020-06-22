@@ -1,0 +1,28 @@
+.center   {
+    text-align:center;
+    color:grey;
+}   
+.list_item {
+    background-color: silver;
+}
+.note {
+    width: 10px;
+    height:20px;
+    border: 2px;
+    color: black;
+}
+.box-one {
+    background-color: rgb(230, 229, 193);
+    width: 300px;
+        height: 900px;
+}
+.main {
+    background-color:white;
+    width: 300px;
+    height: 900px;
+}
+.autor {
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+}
